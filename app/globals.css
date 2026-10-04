@@ -2,24 +2,14 @@
 
 @layer base {
   body {
-    background-color: #09090B;
-    color: var(--color-zinc-100);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    @apply bg-[#09090B] text-zinc-100 antialiased selection:bg-emerald-500/30 selection:text-emerald-200 font-sans;
   }
 }
 
-::selection {
-  background-color: rgb(16 185 129 / 0.3);
-  color: rgb(167 243 208);
-}
-
-/* Utilidades para efectos visuales tipo Linear */
 .glass-panel {
-  @apply bg-zinc-900/60 backdrop-blur-xl border border-white/10 shadow-2xl;
+  @apply bg-zinc-900/70 backdrop-blur-2xl border border-white/10 shadow-2xl;
 }
 
 .glow-emerald {
-  box-shadow: 0 0 50px -10px rgba(16, 185, 129, 0.15);
+  box-shadow: 0 0 60px -15px rgba(16, 185, 129, 0.18);
 }

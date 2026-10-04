@@ -28,13 +28,13 @@ export function Hero() {
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
-            <Link 
-              href="/onboarding"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 text-base font-bold text-zinc-950 bg-emerald-400 rounded-full hover:bg-emerald-300 transition-all shadow-xl shadow-emerald-500/20 hover:scale-[1.02] active:scale-95"
-            >
-              Prueba gratis sin tarjeta
-              <ArrowRight className="w-4 h-4" />
-            </Link>
+            <Link
+  href="/onboarding"
+  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 text-base font-bold text-zinc-950 bg-emerald-400 rounded-full hover:bg-emerald-300 transition-all shadow-lg shadow-emerald-500/20"
+>
+  Prueba gratis sin tarjeta
+  <ArrowRight className="w-4 h-4" />
+</Link>
             <span className="text-xs text-zinc-500 flex items-center gap-1.5">
               <ShieldCheck className="w-4 h-4 text-emerald-500" /> Configuración en 3 minutos
             </span>

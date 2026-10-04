@@ -1,5 +1,6 @@
 import Link from 'next/link';
 
+
 export function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-[#09090B]/80 backdrop-blur-md">
@@ -23,12 +24,12 @@ export function Navbar() {
 
         {/* CTA Principal */}
         <div className="flex items-center gap-4">
-          <Link 
-            href="/onboarding" 
-            className="relative inline-flex items-center justify-center px-5 py-2.5 text-sm font-semibold text-zinc-950 transition-all bg-emerald-400 rounded-full hover:bg-emerald-300 hover:shadow-lg hover:shadow-emerald-500/25 active:scale-95"
-          >
-            Prueba gratis sin tarjeta
-          </Link>
+          <Link
+  href="/onboarding"
+  className="inline-flex items-center justify-center px-6 py-3 text-sm font-bold text-zinc-950 bg-emerald-400 rounded-full hover:bg-emerald-300 transition-all shadow-lg shadow-emerald-500/20"
+>
+  Prueba gratis sin tarjeta
+</Link>
         </div>
       </div>
     </header>
